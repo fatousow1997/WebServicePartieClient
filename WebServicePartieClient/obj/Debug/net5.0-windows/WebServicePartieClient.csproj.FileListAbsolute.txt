@@ -16,3 +16,4 @@ G:\Master1_2021_2022\Dotnet\WebServicePartieClient\WebServicePartieClient\obj\De
 G:\Master1_2021_2022\Dotnet\WebServicePartieClient\WebServicePartieClient\obj\Debug\net5.0-windows\ref\WebServicePartieClient.dll
 G:\Master1_2021_2022\Dotnet\WebServicePartieClient\WebServicePartieClient\obj\Debug\net5.0-windows\WebServicePartieClient.pdb
 G:\Master1_2021_2022\Dotnet\WebServicePartieClient\WebServicePartieClient\obj\Debug\net5.0-windows\WebServicePartieClient.genruntimeconfig.cache
+G:\Master1_2021_2022\Dotnet\WebServicePartieClient\WebServicePartieClient\obj\Debug\net5.0-windows\WebServicePartieClient.Properties.Resources.resources
