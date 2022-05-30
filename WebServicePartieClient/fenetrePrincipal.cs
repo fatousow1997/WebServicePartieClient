@@ -16,5 +16,10 @@ namespace WebServicePartieClient
         {
             InitializeComponent();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
