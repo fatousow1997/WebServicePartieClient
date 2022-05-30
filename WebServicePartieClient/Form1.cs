@@ -53,5 +53,10 @@ namespace WebServicePartieClient
             panel3.BackColor = SystemColors.Control;
             textBox1.BackColor = SystemColors.Control;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }
