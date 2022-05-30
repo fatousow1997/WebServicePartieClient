@@ -60,12 +60,12 @@
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Image = global::WebServicePartieClient.Properties.Resources.home;
             this.button1.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.button1.Location = new System.Drawing.Point(-2, 122);
+            this.button1.Location = new System.Drawing.Point(-2, 91);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(220, 47);
+            this.button1.Size = new System.Drawing.Size(220, 43);
             this.button1.TabIndex = 1;
             this.button1.Text = "Acceuil";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.button1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button1.UseVisualStyleBackColor = false;
             // 
