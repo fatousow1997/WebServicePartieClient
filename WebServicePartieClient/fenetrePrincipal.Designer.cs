@@ -161,7 +161,7 @@
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Image = global::WebServicePartieClient.Properties.Resources.home;
             this.button1.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.button1.Location = new System.Drawing.Point(-2, 91);
+            this.button1.Location = new System.Drawing.Point(0, 91);
             this.button1.Name = "button1";
             this.button1.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
             this.button1.Size = new System.Drawing.Size(220, 43);
@@ -183,7 +183,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(712, 450);
             this.ControlBox = false;
             this.Controls.Add(this.panel1);
             this.Name = "fenetrePrincipal";
