@@ -14,7 +14,7 @@ namespace WebServicePartieClient
     {
         public fenetrePrincipal()
         {
-            InitializeComponent();
+            InitializeComponent();ss
         }
 
         private void button5_Click(object sender, EventArgs e)
