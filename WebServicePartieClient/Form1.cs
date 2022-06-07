@@ -56,7 +56,8 @@ namespace WebServicePartieClient
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+            fenetrePrincipal f=new fenetrePrincipal();
+            f.ShowDialog();
         }
     }
 }
