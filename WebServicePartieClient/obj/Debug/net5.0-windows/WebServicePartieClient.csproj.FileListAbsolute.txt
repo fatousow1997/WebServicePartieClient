@@ -18,3 +18,9 @@ G:\Master1_2021_2022\Dotnet\WebServicePartieClient\WebServicePartieClient\obj\De
 G:\Master1_2021_2022\Dotnet\WebServicePartieClient\WebServicePartieClient\obj\Debug\net5.0-windows\WebServicePartieClient.genruntimeconfig.cache
 G:\Master1_2021_2022\Dotnet\WebServicePartieClient\WebServicePartieClient\obj\Debug\net5.0-windows\WebServicePartieClient.Properties.Resources.resources
 G:\Master1_2021_2022\Dotnet\WebServicePartieClient\WebServicePartieClient\obj\Debug\net5.0-windows\WebServicePartieClient.fenetrePrincipal.resources
+G:\Master1_2021_2022\Dotnet\WebServicePartieClient\WebServicePartieClient\obj\Debug\net5.0-windows\WebServicePartieClient.Form2Autres.resources
+G:\Master1_2021_2022\Dotnet\WebServicePartieClient\WebServicePartieClient\obj\Debug\net5.0-windows\WebServicePartieClient.Form2Contact.resources
+G:\Master1_2021_2022\Dotnet\WebServicePartieClient\WebServicePartieClient\obj\Debug\net5.0-windows\WebServicePartieClient.Form2Localisation.resources
+G:\Master1_2021_2022\Dotnet\WebServicePartieClient\WebServicePartieClient\obj\Debug\net5.0-windows\WebServicePartieClient.Form2Rdv.resources
+G:\Master1_2021_2022\Dotnet\WebServicePartieClient\WebServicePartieClient\obj\Debug\net5.0-windows\WebServicePartieClient.Form2Structure.resources
+G:\Master1_2021_2022\Dotnet\WebServicePartieClient\WebServicePartieClient\obj\Debug\net5.0-windows\WebServicePartieClient.FormAcceuil.resources

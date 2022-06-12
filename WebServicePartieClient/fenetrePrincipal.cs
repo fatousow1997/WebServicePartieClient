@@ -55,9 +55,9 @@ namespace WebServicePartieClient
                     currentButton.ForeColor = Color.White;
                     //En activant ou en surlignant un bouton, on augmente la taille de l'effet font-zoom (dans mon cas à 12.5)
                     currentButton.Font =  new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-                  /*  panelTitleBar.BackColor = color;
-                    panelLogo.BackColor = ThemeColor.ChangeColorBrightness(color, -0.3);
-                    ThemeColor.PrimaryColor = color;
+                     panelTitleBar.BackColor = color;
+                   panelLogo.BackColor = ThemeColor.ChangeColorBrightness(color, -0.3);
+                    /* ThemeColor.PrimaryColor = color;
                     ThemeColor.SecondaryColor = ThemeColor.ChangeColorBrightness(color, -0.3);
                     btnCloseChildForm.Visible = true;*/
                 }
@@ -79,7 +79,21 @@ namespace WebServicePartieClient
                 }
             }
         }
-
+        private void OpenChildForm(Form childForm, object btnSender)
+        {
+            if (activeForm != null)
+                activeForm.Close();
+            ActivateButton(btnSender);
+            activeForm = childForm;
+            childForm.TopLevel = false;
+            childForm.FormBorderStyle = FormBorderStyle.None;
+            childForm.Dock = DockStyle.Fill;
+            this.panelDesktopPane.Controls.Add(childForm);
+            this.panelDesktopPane.Tag = childForm;
+            childForm.BringToFront();
+            childForm.Show();
+            titreBar.Text = childForm.Text;
+        }
         private void fenetrePrincipal_Load(object sender, EventArgs e)
         {
 
@@ -87,7 +101,10 @@ namespace WebServicePartieClient
 
         private void acceuil_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender);
+           
+
+            OpenChildForm(new Forms.Form2Acceuil(), sender);
+            OpenChildForm(new Forms.)
         }
 
         private void structures_Click(object sender, EventArgs e)
