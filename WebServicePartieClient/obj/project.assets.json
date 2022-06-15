@@ -82,6 +82,19 @@
           "lib/netstandard1.6/System.Linq.dll": {}
         }
       },
+      "System.Net.Http.Formatting.Extension/5.2.3": {
+        "type": "package",
+        "compile": {
+          "lib/System.Net.Http.Extensions.dll": {},
+          "lib/System.Net.Http.Formatting.dll": {},
+          "lib/System.Net.Http.Primitives.dll": {}
+        },
+        "runtime": {
+          "lib/System.Net.Http.Extensions.dll": {},
+          "lib/System.Net.Http.Formatting.dll": {},
+          "lib/System.Net.Http.Primitives.dll": {}
+        }
+      },
       "System.Reflection/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -550,6 +563,20 @@
         "ref/xamarinwatchos10/_._",
         "system.linq.4.3.0.nupkg.sha512",
         "system.linq.nuspec"
+      ]
+    },
+    "System.Net.Http.Formatting.Extension/5.2.3": {
+      "sha512": "BlYwj3Mbgc2i+NqtBZ+bea3LiN9WuGpE8PCylBvhxV0wBs0XTkXJmDuzkNnUyPhDBqKMBwDK0ZCnwJ8LpQ0aEg==",
+      "type": "package",
+      "path": "system.net.http.formatting.extension/5.2.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/System.Net.Http.Extensions.dll",
+        "lib/System.Net.Http.Formatting.dll",
+        "lib/System.Net.Http.Primitives.dll",
+        "system.net.http.formatting.extension.5.2.3.nupkg.sha512",
+        "system.net.http.formatting.extension.nuspec"
       ]
     },
     "System.Reflection/4.3.0": {
@@ -1059,7 +1086,8 @@
   },
   "projectFileDependencyGroups": {
     "net5.0-windows7.0": [
-      "System.Linq >= 4.3.0"
+      "System.Linq >= 4.3.0",
+      "System.Net.Http.Formatting.Extension >= 5.2.3"
     ]
   },
   "packageFolders": {
@@ -1109,6 +1137,10 @@
           "System.Linq": {
             "target": "Package",
             "version": "[4.3.0, )"
+          },
+          "System.Net.Http.Formatting.Extension": {
+            "target": "Package",
+            "version": "[5.2.3, )"
           }
         },
         "imports": [
@@ -1132,5 +1164,17 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Le package 'System.Net.Http.Formatting.Extension 5.2.3' a été restauré en utilisant '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' au lieu du framework cible du projet 'net5.0-windows7.0'. Ce package n'est peut-être pas totalement compatible avec votre projet.",
+      "libraryId": "System.Net.Http.Formatting.Extension",
+      "targetGraphs": [
+        "net5.0-windows7.0"
+      ]
+    }
+  ]
 }

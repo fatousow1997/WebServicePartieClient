@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "0HPbtwTrKUFlVxIJpLYe3olzMFhHuyUvjeKZ26kNd+6mHFZ4ne3S3IwAcJviUFRfWUgkN5WRFzkacUdsHrrd6g==",
+  "dgSpecHash": "YC18FXpKFxtVG5gDlC7bQlQjfAj86sqjm5o69+uROFz7CNCsYgzQWaW5a7GeItdszEf656eEE3fPjuoyatO5jQ==",
   "success": true,
   "projectFilePath": "G:\\Master1_2021_2022\\Dotnet\\WebServicePartieClient\\WebServicePartieClient\\WebServicePartieClient.csproj",
   "expectedPackageFiles": [
@@ -11,6 +11,7 @@
     "C:\\Users\\FATOU\\.nuget\\packages\\system.globalization\\4.3.0\\system.globalization.4.3.0.nupkg.sha512",
     "C:\\Users\\FATOU\\.nuget\\packages\\system.io\\4.3.0\\system.io.4.3.0.nupkg.sha512",
     "C:\\Users\\FATOU\\.nuget\\packages\\system.linq\\4.3.0\\system.linq.4.3.0.nupkg.sha512",
+    "C:\\Users\\FATOU\\.nuget\\packages\\system.net.http.formatting.extension\\5.2.3\\system.net.http.formatting.extension.5.2.3.nupkg.sha512",
     "C:\\Users\\FATOU\\.nuget\\packages\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",
     "C:\\Users\\FATOU\\.nuget\\packages\\system.reflection.primitives\\4.3.0\\system.reflection.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\FATOU\\.nuget\\packages\\system.resources.resourcemanager\\4.3.0\\system.resources.resourcemanager.4.3.0.nupkg.sha512",
@@ -19,5 +20,16 @@
     "C:\\Users\\FATOU\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
     "C:\\Users\\FATOU\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Le package 'System.Net.Http.Formatting.Extension 5.2.3' a été restauré en utilisant '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' au lieu du framework cible du projet 'net5.0-windows7.0'. Ce package n'est peut-être pas totalement compatible avec votre projet.",
+      "libraryId": "System.Net.Http.Formatting.Extension",
+      "targetGraphs": [
+        "net5.0-windows7.0"
+      ]
+    }
+  ]
 }
