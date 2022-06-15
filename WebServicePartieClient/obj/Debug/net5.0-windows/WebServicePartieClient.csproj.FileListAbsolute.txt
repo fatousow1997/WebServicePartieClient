@@ -23,4 +23,9 @@ G:\Master1_2021_2022\Dotnet\WebServicePartieClient\WebServicePartieClient\obj\De
 G:\Master1_2021_2022\Dotnet\WebServicePartieClient\WebServicePartieClient\obj\Debug\net5.0-windows\WebServicePartieClient.Forms.Contact.resources
 G:\Master1_2021_2022\Dotnet\WebServicePartieClient\WebServicePartieClient\obj\Debug\net5.0-windows\WebServicePartieClient.Forms.Localisation.resources
 G:\Master1_2021_2022\Dotnet\WebServicePartieClient\WebServicePartieClient\obj\Debug\net5.0-windows\WebServicePartieClient.Forms.Rendez_vous.resources
-G:\Master1_2021_2022\Dotnet\WebServicePartieClient\WebServicePartieClient\obj\Debug\net5.0-windows\WebServicePartieClient.Forms.Structures.resources
+G:\Master1_2021_2022\Dotnet\WebServicePartieClient\WebServicePartieClient\bin\Debug\net5.0-windows\System.Net.Http.Extensions.dll
+G:\Master1_2021_2022\Dotnet\WebServicePartieClient\WebServicePartieClient\bin\Debug\net5.0-windows\System.Net.Http.Formatting.dll
+G:\Master1_2021_2022\Dotnet\WebServicePartieClient\WebServicePartieClient\bin\Debug\net5.0-windows\System.Net.Http.Primitives.dll
+G:\Master1_2021_2022\Dotnet\WebServicePartieClient\WebServicePartieClient\obj\Debug\net5.0-windows\WebServicePartieClient.Forms.Les_Structures_de_santé.resources
+G:\Master1_2021_2022\Dotnet\WebServicePartieClient\WebServicePartieClient\obj\Debug\net5.0-windows\WebServicePartieClient.csproj.CopyComplete
+G:\Master1_2021_2022\Dotnet\WebServicePartieClient\WebServicePartieClient\bin\Debug\net5.0-windows\Newtonsoft.Json.dll

@@ -16,6 +16,9 @@
     <Compile Update="Forms\Contact.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Forms\Les Structures de santé.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Forms\Localisation.cs">
       <SubType>Form</SubType>
     </Compile>

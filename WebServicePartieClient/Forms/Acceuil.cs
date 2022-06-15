@@ -15,7 +15,7 @@ namespace WebServicePartieClient.Forms
           HttpClient client = new HttpClient();
             client.BaseAddress = new Uri("http://localhost:1997/");
             HttpResponseMessage response = client.GetAsync("structures/AllStructures").Result;
-            dataGridView1.DataSource = response.Content.ReadAsAsync<IEnumerable<Structures>>().Result;
+            dataGridView1.DataSource = response.Content.ReadAsAsync<IEnumerable<WebServicePartieClient.Structures>>().Result;
         }
 
         private void button1_Click(object sender, EventArgs e)

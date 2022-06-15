@@ -111,7 +111,7 @@ namespace WebServicePartieClient
 
         private void structures_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new Forms.Structures(), sender);
+          //  OpenChildForm(new Forms.Structures(), sender);
            
         }
 
