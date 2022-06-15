@@ -226,6 +226,7 @@
             this.panelDesktopPane.Name = "panelDesktopPane";
             this.panelDesktopPane.Size = new System.Drawing.Size(938, 538);
             this.panelDesktopPane.TabIndex = 2;
+            this.panelDesktopPane.Paint += new System.Windows.Forms.PaintEventHandler(this.panelDesktopPane_Paint);
             // 
             // fenetrePrincipal
             // 

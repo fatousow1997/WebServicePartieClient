@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WebServicePartieClient
+namespace WebServicePartieClient.Forms
 {
-    public partial class Form2Structure : Form
+    public partial class Contact : Form
     {
-        public Form2Structure()
+        public Contact()
         {
             InitializeComponent();
         }

@@ -8,13 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WebServicePartieClient
+namespace WebServicePartieClient.Forms
 {
-    public partial class Form2Localisation : Form
+    public partial class Acceuil : Form
     {
-        public Form2Localisation()
+        public Acceuil()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -1,6 +1,6 @@
-﻿namespace WebServicePartieClient
+﻿namespace WebServicePartieClient.Forms
 {
-    partial class Form2Autres
+    partial class Acceuil
     {
         /// <summary>
         /// Required designer variable.
@@ -28,12 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.label1 = new System.Windows.Forms.Label();
+            this.SuspendLayout();
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(159, 105);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(109, 25);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "page acceuil";
+            // 
+            // Acceuil
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form2Autres";
+            this.Controls.Add(this.label1);
+            this.Name = "Acceuil";
+            this.Text = "Acceuil";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Label label1;
     }
 }

@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace WebServicePartieClient
 {
     public partial class fenetrePrincipal : Form
@@ -81,6 +82,8 @@ namespace WebServicePartieClient
         }
         private void OpenChildForm(Form childForm, object btnSender)
         {
+          
+
             if (activeForm != null)
                 activeForm.Close();
             ActivateButton(btnSender);
@@ -101,40 +104,45 @@ namespace WebServicePartieClient
 
         private void acceuil_Click(object sender, EventArgs e)
         {
-           
 
-            OpenChildForm(new Forms.Form2Acceuil(), sender);
-            OpenChildForm(new Forms.)
+            OpenChildForm(new Forms.Acceuil(), sender);
+
         }
 
         private void structures_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender);
+            OpenChildForm(new Forms.Structures(), sender);
+           
         }
 
         private void localisation_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender);
+            OpenChildForm(new Forms.Localisation(), sender);
         }
 
         private void rdv_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender);
+            OpenChildForm(new Forms.Rendez_vous(), sender);
 
         }
 
         private void contact_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender);
+            OpenChildForm(new Forms.Contact(), sender);
         }
 
         private void autres_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender);
+            OpenChildForm(new Forms.Autres(), sender);
 
         }
 
         private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panelDesktopPane_Paint(object sender, PaintEventArgs e)
         {
 
         }

@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WebServicePartieClient
+namespace WebServicePartieClient.Forms
 {
-    public partial class FormAcceuil : Form
+    public partial class Localisation : Form
     {
-        public FormAcceuil()
+        public Localisation()
         {
             InitializeComponent();
         }

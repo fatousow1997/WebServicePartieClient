@@ -7,22 +7,22 @@
     <Compile Update="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Form2Autres.cs">
+    <Compile Update="Forms\Acceuil.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Form2Contact.cs">
+    <Compile Update="Forms\Autres.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Form2Localisation.cs">
+    <Compile Update="Forms\Contact.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Form2Rdv.cs">
+    <Compile Update="Forms\Localisation.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Form2Structure.cs">
+    <Compile Update="Forms\Rendez-vous.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="FormAcceuil.cs">
+    <Compile Update="Forms\Structures.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
