@@ -1,9 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
-using System.Linq;
-using System.Net.Http;
-using System.Net.Http.Formatting;
-using System.Collections.Generic;
+
 
 namespace WebServicePartieClient.Forms
 {
@@ -12,10 +9,7 @@ namespace WebServicePartieClient.Forms
         public Acceuil()
         {
             InitializeComponent();
-          HttpClient client = new HttpClient();
-            client.BaseAddress = new Uri("http://localhost:1997/");
-            HttpResponseMessage response = client.GetAsync("structures/AllStructures").Result;
-            dataGridView1.DataSource = response.Content.ReadAsAsync<IEnumerable<WebServicePartieClient.Structures>>().Result;
+           
         }
 
         private void button1_Click(object sender, EventArgs e)
