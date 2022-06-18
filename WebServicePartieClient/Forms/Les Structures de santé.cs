@@ -31,7 +31,7 @@ namespace WebServicePartieClient.Forms
 
         private void dgvStruct_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            dgvStruct.ColumnCount = 5;
+            
         }
     }
 }

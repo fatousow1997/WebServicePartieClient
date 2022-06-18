@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace WebServicePartieClient.Forms
 {
-    public partial class Rendez_vous : Form
+    public partial class PriseRdv : Form
     {
-        public Rendez_vous()
+        public PriseRdv()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            PriseRdv p=new PriseRdv();
-            p.ShowDialog();
         }
     }
 }

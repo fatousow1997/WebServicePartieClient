@@ -29,3 +29,4 @@ G:\Master1_2021_2022\Dotnet\WebServicePartieClient\WebServicePartieClient\bin\De
 G:\Master1_2021_2022\Dotnet\WebServicePartieClient\WebServicePartieClient\obj\Debug\net5.0-windows\WebServicePartieClient.Forms.Les_Structures_de_santé.resources
 G:\Master1_2021_2022\Dotnet\WebServicePartieClient\WebServicePartieClient\obj\Debug\net5.0-windows\WebServicePartieClient.csproj.CopyComplete
 G:\Master1_2021_2022\Dotnet\WebServicePartieClient\WebServicePartieClient\bin\Debug\net5.0-windows\Newtonsoft.Json.dll
+G:\Master1_2021_2022\Dotnet\WebServicePartieClient\WebServicePartieClient\obj\Debug\net5.0-windows\WebServicePartieClient.Forms.PriseRdv.resources
