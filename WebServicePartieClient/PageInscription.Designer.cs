@@ -43,6 +43,7 @@ namespace WebServicePartieClient
             this.Nom = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.textN = new System.Windows.Forms.TextBox();
+            this.btnInscrire = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // linkLabel1
@@ -173,11 +174,22 @@ namespace WebServicePartieClient
             this.textN.Size = new System.Drawing.Size(150, 31);
             this.textN.TabIndex = 29;
             // 
+            // btnInscrire
+            // 
+            this.btnInscrire.Location = new System.Drawing.Point(605, 379);
+            this.btnInscrire.Name = "btnInscrire";
+            this.btnInscrire.Size = new System.Drawing.Size(112, 34);
+            this.btnInscrire.TabIndex = 30;
+            this.btnInscrire.Text = "S\'inscrire";
+            this.btnInscrire.UseVisualStyleBackColor = true;
+            this.btnInscrire.Click += new System.EventHandler(this.btnInscrire_Click);
+            // 
             // PageInscription
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnInscrire);
             this.Controls.Add(this.textN);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.linkLabel1);
@@ -194,6 +206,7 @@ namespace WebServicePartieClient
             this.Controls.Add(this.Nom);
             this.Name = "PageInscription";
             this.Text = "PageInscription";
+            this.Load += new System.EventHandler(this.PageInscription_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -215,5 +228,6 @@ namespace WebServicePartieClient
         private System.Windows.Forms.Label Nom;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox textN;
+        private System.Windows.Forms.Button btnInscrire;
     }
 }

@@ -28,5 +28,8 @@
     <Compile Update="Forms\Rendez-vous.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="PageInscription.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>
