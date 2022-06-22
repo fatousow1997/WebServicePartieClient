@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "p0hMRSIdNo8pUqaUhS9n1HEwgeFjbniQJ9PW9iG65++5QUe9byYwB4yWDw19HQFpf8liY+KpAErwFGMjKUWsGg==",
+  "dgSpecHash": "IqSMmfwHsadr7sC0sobC+34vjLxqxKJvAL+8vfzpdvVoHhewZmielsEQN5dn6eCw5ym9S9hCO9mJ4oWY+yNUwA==",
   "success": true,
   "projectFilePath": "G:\\Master1_2021_2022\\Dotnet\\WebServicePartieClient\\WebServicePartieClient\\WebServicePartieClient.csproj",
   "expectedPackageFiles": [
@@ -19,7 +19,8 @@
     "C:\\Users\\FATOU\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
     "C:\\Users\\FATOU\\.nuget\\packages\\system.runtime.extensions\\4.3.0\\system.runtime.extensions.4.3.0.nupkg.sha512",
     "C:\\Users\\FATOU\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
-    "C:\\Users\\FATOU\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512"
+    "C:\\Users\\FATOU\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
+    "C:\\Users\\FATOU\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
   ],
   "logs": [
     {

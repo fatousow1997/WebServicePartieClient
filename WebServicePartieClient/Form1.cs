@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Drawing;
+using System.Net.Http;
+using Newtonsoft.Json;
 
 namespace WebServicePartieClient
 {
@@ -58,6 +60,57 @@ namespace WebServicePartieClient
         {
             fenetrePrincipal f=new fenetrePrincipal();
             f.ShowDialog();
+        }
+        private static readonly string baseUrl = "http://localhost:1997/";
+        public static async Task<string> Inscription(Utilisateur utilisateur)
+        {
+          
+            using (HttpClient client = new HttpClient())
+            {
+                var u = new Dictionary<string, dynamic>
+                {
+                   
+                    {"prenom",utilisateur.prenom},
+                    {"nom",utilisateur.nom},
+                    {"tel",utilisateur.tel},
+                    {"login",utilisateur.login},
+                    {"mdp",utilisateur.mdp}
+
+                };
+                var json = JsonConvert.SerializeObject(u);
+                var stringContent = new StringContent(json, UnicodeEncoding.UTF8, "application/json");
+
+                using (HttpResponseMessage res = await client.PostAsync(baseUrl + "utilisateurs/AjouterUser", stringContent))
+
+                {
+
+
+                    using (HttpContent content = res.Content)
+                    {
+                        Console.WriteLine("éééééééééé:::: " + res);
+
+
+
+
+                        String data = await content.ReadAsStringAsync();
+                        if (data != null)
+                        {
+                            return data;
+                        }
+                    }
+                }
+            }
+            return string.Empty;
+        }
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+            
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
