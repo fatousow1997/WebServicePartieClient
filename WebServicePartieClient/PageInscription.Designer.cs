@@ -182,7 +182,7 @@ namespace WebServicePartieClient
             this.btnInscrire.TabIndex = 30;
             this.btnInscrire.Text = "S\'inscrire";
             this.btnInscrire.UseVisualStyleBackColor = true;
-            this.btnInscrire.Click += new System.EventHandler(this.btnInscrire_Click);
+            this.btnInscrire.Click += new System.EventHandler(this.btnInscrire_Click_1);
             // 
             // PageInscription
             // 
