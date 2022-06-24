@@ -16,6 +16,7 @@ namespace WebServicePartieClient.Forms
     public partial class Les_Structures_de_santé : Form
     {
         public Les_Structures_de_santé()
+
         {
             InitializeComponent();
             HttpClient client = new HttpClient();
@@ -25,7 +26,7 @@ namespace WebServicePartieClient.Forms
             List<Structures> st = response.Content.ReadAsAsync<List<Structures>>().Result;
             dgvStruct.DataSource = st;
 
-            MessageBox.Show(st[0].nbrVaccinDispo);
+           // MessageBox.Show(st[0].nbrVaccinDispo);
         }
         
 

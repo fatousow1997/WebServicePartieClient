@@ -3,7 +3,6 @@ G:\Master1_2021_2022\Dotnet\WebServicePartieClient\WebServicePartieClient\bin\De
 G:\Master1_2021_2022\Dotnet\WebServicePartieClient\WebServicePartieClient\bin\Debug\net5.0-windows\WebServicePartieClient.runtimeconfig.json
 G:\Master1_2021_2022\Dotnet\WebServicePartieClient\WebServicePartieClient\bin\Debug\net5.0-windows\WebServicePartieClient.runtimeconfig.dev.json
 G:\Master1_2021_2022\Dotnet\WebServicePartieClient\WebServicePartieClient\bin\Debug\net5.0-windows\WebServicePartieClient.dll
-G:\Master1_2021_2022\Dotnet\WebServicePartieClient\WebServicePartieClient\bin\Debug\net5.0-windows\ref\WebServicePartieClient.dll
 G:\Master1_2021_2022\Dotnet\WebServicePartieClient\WebServicePartieClient\bin\Debug\net5.0-windows\WebServicePartieClient.pdb
 G:\Master1_2021_2022\Dotnet\WebServicePartieClient\WebServicePartieClient\obj\Debug\net5.0-windows\WebServicePartieClient.csproj.AssemblyReference.cache
 G:\Master1_2021_2022\Dotnet\WebServicePartieClient\WebServicePartieClient\obj\Debug\net5.0-windows\WebServicePartieClient.Form1.resources
@@ -31,3 +30,5 @@ G:\Master1_2021_2022\Dotnet\WebServicePartieClient\WebServicePartieClient\obj\De
 G:\Master1_2021_2022\Dotnet\WebServicePartieClient\WebServicePartieClient\bin\Debug\net5.0-windows\Newtonsoft.Json.dll
 G:\Master1_2021_2022\Dotnet\WebServicePartieClient\WebServicePartieClient\obj\Debug\net5.0-windows\WebServicePartieClient.Forms.PriseRdv.resources
 G:\Master1_2021_2022\Dotnet\WebServicePartieClient\WebServicePartieClient\obj\Debug\net5.0-windows\WebServicePartieClient.PageInscription.resources
+G:\Master1_2021_2022\Dotnet\WebServicePartieClient\WebServicePartieClient\bin\Debug\net5.0-windows\System.Net.Http.WebRequest.dll
+G:\Master1_2021_2022\Dotnet\WebServicePartieClient\WebServicePartieClient\obj\Debug\net5.0-windows\refint\WebServicePartieClient.dll

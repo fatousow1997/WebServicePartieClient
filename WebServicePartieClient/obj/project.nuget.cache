@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "IqSMmfwHsadr7sC0sobC+34vjLxqxKJvAL+8vfzpdvVoHhewZmielsEQN5dn6eCw5ym9S9hCO9mJ4oWY+yNUwA==",
+  "dgSpecHash": "0kmbG4J7iU69FUCkT49v8m/JRHXmkgk3Bona/UJXVgWqHwzKYK0akWuUnBZ5wCcYQrq5cxtWzfzkco/mY2sH+Q==",
   "success": true,
   "projectFilePath": "G:\\Master1_2021_2022\\Dotnet\\WebServicePartieClient\\WebServicePartieClient\\WebServicePartieClient.csproj",
   "expectedPackageFiles": [
@@ -12,6 +12,7 @@
     "C:\\Users\\FATOU\\.nuget\\packages\\system.globalization\\4.3.0\\system.globalization.4.3.0.nupkg.sha512",
     "C:\\Users\\FATOU\\.nuget\\packages\\system.io\\4.3.0\\system.io.4.3.0.nupkg.sha512",
     "C:\\Users\\FATOU\\.nuget\\packages\\system.linq\\4.3.0\\system.linq.4.3.0.nupkg.sha512",
+    "C:\\Users\\FATOU\\.nuget\\packages\\system.net.http\\2.0.20126.16343\\system.net.http.2.0.20126.16343.nupkg.sha512",
     "C:\\Users\\FATOU\\.nuget\\packages\\system.net.http.formatting.extension\\5.2.3\\system.net.http.formatting.extension.5.2.3.nupkg.sha512",
     "C:\\Users\\FATOU\\.nuget\\packages\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",
     "C:\\Users\\FATOU\\.nuget\\packages\\system.reflection.primitives\\4.3.0\\system.reflection.primitives.4.3.0.nupkg.sha512",
@@ -23,6 +24,26 @@
     "C:\\Users\\FATOU\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
   ],
   "logs": [
+    {
+      "code": "NU1602",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "System.Net.Http.Formatting.Extension 5.2.3 ne fournit pas de limite inférieure inclusive pour la dépendance System.Net.Http. Une meilleure correspondance approximative de System.Net.Http 2.0.20126.16343 a été résolue.",
+      "libraryId": "System.Net.Http",
+      "targetGraphs": [
+        "net5.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Le package 'System.Net.Http 2.0.20126.16343' a été restauré en utilisant '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' au lieu du framework cible du projet 'net5.0-windows7.0'. Ce package n'est peut-être pas totalement compatible avec votre projet.",
+      "libraryId": "System.Net.Http",
+      "targetGraphs": [
+        "net5.0-windows7.0"
+      ]
+    },
     {
       "code": "NU1701",
       "level": "Warning",
