@@ -21,8 +21,13 @@ namespace WebServicePartieClient.Forms
             HttpClient client = new HttpClient();
             client.BaseAddress = new Uri("http://localhost:1997/");
             HttpResponseMessage response = client.GetAsync("structures/AllStructures").Result;
-            dgvStruct.DataSource = response.Content.ReadAsAsync<IEnumerable<WebServicePartieClient.Structures>>().Result;
+            // dgvStruct.DataSource =response.Content.ReadAsAsync<IEnumerable<WebServicePartieClient.Structures>>().Result;
+            List<Structures> st = response.Content.ReadAsAsync<List<Structures>>().Result;
+            dgvStruct.DataSource = st;
+
+            MessageBox.Show(st[0].nbrVaccinDispo);
         }
+        
 
         private void Les_Structures_de_santé_Load(object sender, EventArgs e)
         {

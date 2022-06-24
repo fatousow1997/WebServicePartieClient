@@ -8,10 +8,14 @@ namespace WebServicePartieClient
 {
     internal class Structures
     {
-        public String NomStructure { get; set; }
-        public String AdrStruct { get; set; }
+        public String? NomStructure { get; set; }
+        public String? AdrStruct { get; set; }
         public long ContactStruct { get; set; }
-        public String TestDispo { get; set; }
-        public String VaccinDispo { get; set; }
+        public String? nbrVaccinDispo { get; set; }
+        public String? nbrTestDispo { get; set; }
+
+        
+      
+
     }
 }

@@ -16,5 +16,31 @@ namespace WebServicePartieClient.Forms
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+
+           
+        }
+
+     
+
+        private void TextS_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            string structure = Tsearch.Text;
+            StringBuilder queryAdress = new StringBuilder();
+            queryAdress.Append("http://google.com/maps?q=");
+            if (structure != string.Empty)
+            {
+                queryAdress.Append(structure);
+            }
+            //WebBrowser.Navigate(queryAdress.ToString());
+        }
     }
 }
